@@ -3,7 +3,7 @@ export const LANGUES = {
   fr: {
     titre: 'Ce week-end, Vice City a été visitée 400 fois plus que Paris',
     chapo: 'Visiteurs estimés samedi 21 et dimanche 22 novembre 2026 : joueurs de GTA VI pour Vice City, touristes internationaux pour les neuf villes les plus visitées au monde',
-    cle: ['Joueurs de GTA VI (estimation)', 'Touristes internationaux (week-end moyen)', 'Intervalle à 90 %'],
+    cle: ['Joueurs de GTA VI (estimation centrale)', 'Fourchette d’estimation (intervalle à 90 %)', 'Touristes internationaux (week-end moyen)', 'Niveau de Vice City'],
     entetes: ['Visiteurs', 'Vice City en a reçu'],
     jeu: 'GTA VI',
     fourchette: (a, b) => `Entre ${a} et ${b} millions (intervalle à 90 %)`,
@@ -18,7 +18,7 @@ export const LANGUES = {
   es: {
     titre: 'Este fin de semana, Vice City recibió 400 veces más visitantes que París',
     chapo: 'Visitantes estimados el sábado 21 y el domingo 22 de noviembre de 2026: jugadores de GTA VI en Vice City, turistas internacionales en las nueve ciudades más visitadas del mundo',
-    cle: ['Jugadores de GTA VI (estimación)', 'Turistas internacionales (fin de semana medio)', 'Intervalo al 90 %'],
+    cle: ['Jugadores de GTA VI (estimación central)', 'Horquilla de estimación (intervalo al 90 %)', 'Turistas internacionales (fin de semana medio)', 'Nivel de Vice City'],
     entetes: ['Visitantes', 'Vice City recibió'],
     jeu: 'GTA VI',
     fourchette: (a, b) => `Entre ${a} y ${b} millones (intervalo al 90 %)`,
@@ -33,7 +33,7 @@ export const LANGUES = {
   it: {
     titre: 'Questo fine settimana Vice City ha ricevuto 400 volte più visitatori di Parigi',
     chapo: 'Visitatori stimati sabato 21 e domenica 22 novembre 2026: giocatori di GTA VI per Vice City, turisti internazionali per le nove città più visitate al mondo',
-    cle: ['Giocatori di GTA VI (stima)', 'Turisti internazionali (fine settimana medio)', 'Intervallo al 90%'],
+    cle: ['Giocatori di GTA VI (stima centrale)', 'Forchetta di stima (intervallo al 90%)', 'Turisti internazionali (fine settimana medio)', 'Livello di Vice City'],
     entetes: ['Visitatori', 'Vice City ne ha ricevuti'],
     jeu: 'GTA VI',
     fourchette: (a, b) => `Tra ${a} e ${b} milioni (intervallo al 90%)`,
