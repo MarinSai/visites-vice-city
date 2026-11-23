@@ -105,7 +105,7 @@
         <div class="piste">
           <i class="repere" style="width:{pct(VICE)}%"></i>
           <i class="barre" style="--w:{pct(c.v)}%"></i>
-          <span class="dans-piste">{T.surPiste(c.ratio)}</span>
+          <span class="dans-piste">{i === 0 ? T.surPiste(c.ratio) : T.fois(c.ratio)}</span>
         </div>
         <div class="num valeur">{enMilliers(c.v)}</div>
         <div class="num ratio">{T.fois(c.ratio)}</div>
