@@ -11,7 +11,8 @@ export const LANGUES = {
     fois: (n) => `${n} fois plus`,
     villes: [['Bangkok', 'Thaïlande'], ['Hong Kong', 'Chine'], ['Londres', 'Royaume-Uni'], ['Macao', 'Chine'], ['Istanbul', 'Turquie'],
              ['Dubaï', 'Émirats arabes unis'], ['La Mecque', 'Arabie saoudite'], ['Antalya', 'Turquie'], ['Paris', 'France']],
-    note: 'Note : le nombre de joueurs de GTA VI n’est pas publié ; il est estimé à partir des ventes annoncées par Take-Two, des estimations de Sensor Tower, des taux d’activation mesurés par Circana et des utilisateurs actifs de PlayStation. Pour les villes, arrivées internationales de 2025 ramenées à un week-end moyen (chiffre annuel ÷ 365 × 2). À l’échelle, la barre de chaque ville mesure moins de 0,5 % de celle de Vice City, ville fictive du jeu.',
+    note: 'Note : le nombre de joueurs de GTA VI n’est pas publié ; il s’agit d’une estimation du Grand Continent. Pour les villes, arrivées internationales de 2025 ramenées à un week-end moyen. Vice City est la ville fictive du jeu.',
+    surPiste: (n) => `Vice City en a reçu ${n} fois plus`,
     source: 'Source : Euromonitor International, Take-Two Interactive, Sensor Tower, Circana, Sony ; calculs du Grand Continent · Graphique : Le Grand Continent',
     milliers: ' '
   },
@@ -26,7 +27,8 @@ export const LANGUES = {
     fois: (n) => `${n} veces más`,
     villes: [['Bangkok', 'Tailandia'], ['Hong Kong', 'China'], ['Londres', 'Reino Unido'], ['Macao', 'China'], ['Estambul', 'Turquía'],
              ['Dubái', 'Emiratos Árabes Unidos'], ['La Meca', 'Arabia Saudí'], ['Antalya', 'Turquía'], ['París', 'Francia']],
-    note: 'Nota: el número de jugadores de GTA VI no se ha publicado; se estima a partir de las ventas anunciadas por Take-Two, las estimaciones de Sensor Tower, las tasas de activación medidas por Circana y los usuarios activos de PlayStation. Para las ciudades, llegadas internacionales de 2025 reducidas a un fin de semana medio (cifra anual ÷ 365 × 2). A escala, la barra de cada ciudad mide menos del 0,5 % de la de Vice City, ciudad ficticia del juego.',
+    note: 'Nota: el número de jugadores de GTA VI no se ha publicado; se trata de una estimación de El Grand Continent. Para las ciudades, llegadas internacionales de 2025 reducidas a un fin de semana medio. Vice City es la ciudad ficticia del juego.',
+    surPiste: (n) => `Vice City recibió ${n} veces más`,
     source: 'Fuente: Euromonitor International, Take-Two Interactive, Sensor Tower, Circana, Sony; cálculos de El Grand Continent · Gráfico: El Grand Continent',
     milliers: '.'
   },
@@ -41,7 +43,8 @@ export const LANGUES = {
     fois: (n) => `${n} volte di più`,
     villes: [['Bangkok', 'Thailandia'], ['Hong Kong', 'Cina'], ['Londra', 'Regno Unito'], ['Macao', 'Cina'], ['Istanbul', 'Turchia'],
              ['Dubai', 'Emirati Arabi Uniti'], ['La Mecca', 'Arabia Saudita'], ['Antalya', 'Turchia'], ['Parigi', 'Francia']],
-    note: 'Nota: il numero di giocatori di GTA VI non è pubblicato; è stimato a partire dalle vendite annunciate da Take-Two, dalle stime di Sensor Tower, dai tassi di attivazione misurati da Circana e dagli utenti attivi di PlayStation. Per le città, arrivi internazionali del 2025 riportati a un fine settimana medio (dato annuo ÷ 365 × 2). In scala, la barra di ogni città misura meno dello 0,5% di quella di Vice City, città immaginaria del gioco.',
+    note: 'Nota: il numero di giocatori di GTA VI non è pubblicato; si tratta di una stima de Il Grand Continent. Per le città, arrivi internazionali del 2025 riportati a un fine settimana medio. Vice City è la città immaginaria del gioco.',
+    surPiste: (n) => `Vice City ne ha ricevuti ${n} volte di più`,
     source: 'Fonte: Euromonitor International, Take-Two Interactive, Sensor Tower, Circana, Sony; calcoli de Il Grand Continent · Grafico: Il Grand Continent',
     milliers: '.'
   }

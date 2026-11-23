@@ -12,6 +12,7 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "d3-geo": "^3.1.2",
+    "flag-icons": "^7.6.0",
     "puppeteer-core": "^25.17.0",
     "svelte": "^4.2.20",
     "topojson-client": "^3.1.0",
